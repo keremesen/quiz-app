@@ -18,3 +18,7 @@ Then, run the application in the command line and it will be available at `http:
 ```bash
 npm run dev
 ```
+### Tech Stack
+- Nextjs
+- Redux Toolkit
+- Redux Toolkit Query

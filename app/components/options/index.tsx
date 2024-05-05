@@ -7,7 +7,7 @@ import { useAppSelector } from "@/app/hooks";
 const Options = () => {
   const { data } = useGetQuizQuery(TOTAL_QUESTIONS);
   const currentQuestion = useAppSelector((state) => state.quiz.currentQuestion);
-  const [option, setOption] = useState([]);
+  const [option, setOption] = useState<string[]>([]);
 
   useEffect(() => {
     if (data) {
